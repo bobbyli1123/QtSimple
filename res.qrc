@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ico/finance.png</file>
+        <file>ico/honor.png</file>
+        <file>ico/info.png</file>
+        <file>ico/product.png</file>
+        <file>ico/settings.png</file>
+        <file>style/style.qss</file>
+        <file>ico/about.png</file>
+        <file>ico/bid.png</file>
+        <file>ico/book.png</file>
+        <file>ico/book2.png</file>
+        <file>ico/cash.png</file>
+        <file>ico/consult.png</file>
+        <file>ico/contact.png</file>
+        <file>ico/contact2.png</file>
+        <file>ico/contract.png</file>
+        <file>ico/cooperation.png</file>
+        <file>ico/discount.png</file>
+        <file>ico/faculty.png</file>
+        <file>ico/favourite.png</file>
+        <file>ico/forum.png</file>
+        <file>ico/help.png</file>
+        <file>ico/info2.png</file>
+        <file>ico/knowledge.png</file>
+        <file>ico/list2.png</file>
+        <file>ico/lost.png</file>
+        <file>ico/manifest.png</file>
+        <file>ico/medi.png</file>
+        <file>ico/medi2.png</file>
+        <file>ico/more_app.png</file>
+        <file>ico/more_info.png</file>
+        <file>ico/organization.png</file>
+        <file>ico/question.png</file>
+        <file>ico/report.png</file>
+        <file>ico/report2.png</file>
+        <file>ico/res.png</file>
+        <file>ico/safe.png</file>
+        <file>ico/search.png</file>
+        <file>ico/search2.png</file>
+        <file>ico/shopping.png</file>
+        <file>ico/star.png</file>
+        <file>ico/tag.png</file>
+        <file>ico/trade.png</file>
+    </qresource>
+</RCC>

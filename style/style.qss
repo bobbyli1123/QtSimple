@@ -1,0 +1,210 @@
+/* 充满科技感的Qt样式表 */
+
+QWidget {
+    background-color: #181c20;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', 'Microsoft YaHei', Arial, sans-serif;
+    font-size: 14px;
+}
+
+QMainWindow {
+    background-color: #181c20;
+}
+
+QMenuBar {
+    background: #23272b;
+    color: #e0e0e0;
+    border-bottom: 1px solid #2d3238;
+}
+QMenuBar::item {
+    background: transparent;
+    padding: 6px 18px;
+}
+QMenuBar::item:selected {
+    background: #2d3238;
+    color: #00ffe7;
+}
+
+QMenu {
+    background: #23272b;
+    color: #e0e0e0;
+    border: 1px solid #2d3238;
+}
+QMenu::item:selected {
+    background: #00ffe7;
+    color: #23272b;
+}
+
+QToolBar {
+    background: #23272b;
+    border-bottom: 1px solid #2d3238;
+    spacing: 6px;
+}
+QToolButton {
+    background: #23272b;
+    color: #e0e0e0;
+    border: 1px solid #2d3238;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin: 2px;
+}
+QToolButton:hover, QToolButton:checked {
+    background: #00ffe7;
+    color: #23272b;
+    border: 1px solid #00ffe7;
+}
+
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #23272b, stop:1 #00ffe7);
+    color: #e0e0e0;
+    border: 1px solid #00ffe7;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #00ffe7, stop:1 #23272b);
+    color: #23272b;
+    border: 1px solid #00ffe7;
+}
+QPushButton:pressed {
+    background: #00ffe7;
+    color: #23272b;
+}
+
+QLineEdit, QTextEdit, QPlainTextEdit {
+    background: #23272b;
+    color: #00ffe7;
+    border: 1px solid #00ffe7;
+    border-radius: 6px;
+    padding: 6px;
+    selection-background-color: #00ffe7;
+    selection-color: #23272b;
+}
+
+QLabel {
+    color: #00ffe7;
+    font-weight: 500;
+}
+
+QCheckBox, QRadioButton {
+    color: #e0e0e0;
+    spacing: 8px;
+}
+QCheckBox::indicator, QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+}
+QCheckBox::indicator:checked, QRadioButton::indicator:checked {
+    background: #00ffe7;
+    border: 1px solid #00ffe7;
+}
+
+QComboBox {
+    background: #23272b;
+    color: #e0e0e0;
+    border: 1px solid #00ffe7;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QComboBox QAbstractItemView {
+    background: #23272b;
+    color: #00ffe7;
+    border: 1px solid #00ffe7;
+    selection-background-color: #00ffe7;
+    selection-color: #23272b;
+}
+
+QTabWidget::pane {
+    border: 1px solid #00ffe7;
+    border-radius: 8px;
+    background: #23272b;
+}
+QTabBar::tab {
+    background: #23272b;
+    color: #e0e0e0;
+    border: 1px solid #00ffe7;
+    border-radius: 8px 8px 0 0;
+    padding: 8px 20px;
+    margin-right: 2px;
+}
+QTabBar::tab:selected {
+    background: #00ffe7;
+    color: #23272b;
+}
+
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: #23272b;
+    border: none;
+    width: 10px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background: #00ffe7;
+    border-radius: 5px;
+    min-height: 20px;
+}
+QScrollBar::add-line, QScrollBar::sub-line {
+    background: none;
+    border: none;
+}
+
+QStatusBar {
+    background: #23272b;
+    color: #00ffe7;
+    border-top: 1px solid #00ffe7;
+}
+
+QProgressBar {
+    background: #23272b;
+    border: 1px solid #00ffe7;
+    border-radius: 8px;
+    text-align: center;
+    color: #e0e0e0;
+}
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #00ffe7, stop:1 #23272b);
+    border-radius: 8px;
+}
+
+QGroupBox {
+    border: 1px solid #00ffe7;
+    border-radius: 8px;
+    margin-top: 16px;
+    color: #00ffe7;
+    font-weight: bold;
+}
+QGroupBox:title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 6px;
+}
+
+QTableView, QListView, QTreeView {
+    background: #23272b;
+    color: #e0e0e0;
+    border: 1px solid #00ffe7;
+    selection-background-color: #00ffe7;
+    selection-color: #23272b;
+    gridline-color: #00ffe7;
+}
+
+QHeaderView::section {
+    background: #181c20;
+    color: #00ffe7;
+    border: 1px solid #00ffe7;
+    padding: 6px;
+}
+
+/* 细节装饰 */
+QWidget#mainWidget, QWidget#centralWidget {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #181c20, stop:1 #23272b);
+}
+
+/* 让按钮和控件有发光效果 */
+QPushButton, QToolButton {
+    box-shadow: 0 0 8px #00ffe7;
+}
+
+/* 鼠标悬停时的动画效果可通过QPropertyAnimation实现 */
